@@ -1,0 +1,45 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+.logoBatman{
+  display:block;
+  margin:auto;
+}
+
+#fondoImagen{
+  background-color: #E5E5E5;
+}
+
+.titulo{
+  width: auto;
+  background-color: #C4C4C4;
+  height: 35px;
+  color: #005677;
+  font-weight: bold;
+  font-size: 20px;
+  display:block;
+  margin:auto;
+  padding: 10px;
+}
+
+#footerLocation{
+  width: auto;
+  height: 50px;
+  background-color: #005677;
+  color:#FFFFFF;
+}
+
+.centrarMarca{
+  display: block;
+  text-align: center;
+  margin:auto;
+}
+
+#nombre{
+  display: block;
+  margin:auto;
+  text-align: center;
+}
+

@@ -1,0 +1,31 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+  height: 90px;
+  width: 100%;
+  background-color: black;
+  opacity: 0.7;
+  text-align: center;
+  position: fixed;
+  z-index: 1;
+}
+
+img{
+  padding: 90px;
+  box-sizing: inherit;
+}
+footer{
+  height: 90px;
+  width: auto;
+  background-color: black;
+  opacity: 0.8;
+  text-align: center;
+}
+
+nav ul li a, footer{
+  color:#fff;
+}
+
