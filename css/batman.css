@@ -1,11 +1,16 @@
 *{
   padding: 0px;
   margin: 0px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .logoBatman{
   display:block;
   margin:auto;
+}
+
+.secciones{
+  height: 150px;
 }
 
 #fondoImagen{
@@ -15,10 +20,9 @@
 .titulo{
   width: auto;
   background-color: #C4C4C4;
-  height: 35px;
+  height: 32px;
   color: #005677;
   font-weight: bold;
-  font-size: 20px;
   display:block;
   margin:auto;
   padding: 10px;
