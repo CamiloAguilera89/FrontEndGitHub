@@ -3,13 +3,16 @@
   margin: 0px;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 h1{  
   color: #005677;
   text-align: center;
 }
 
-header i{
-  color: #FFFFFF;
+#imgPersonal{
+  color: #C4C4C4;
+  display:block;
+  margin:auto;
 }
 
 .logoBatman{
@@ -43,19 +46,6 @@ header i{
   background-color: #005677;
   color:#FFFFFF;
 }
-
-.marca1{
-  /* justify-content: center;
-  text-align: center; */
-  
-  color: #FFFFFF;
-}
-.marca2{
-  /* justify-content: center;
-  text-align: center; */
-  color: #FFFFFF;
-}
-
 
 #nombre{
   display: block;
