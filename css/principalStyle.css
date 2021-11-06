@@ -29,3 +29,22 @@ nav ul li a, footer{
   color:#fff;
 }
 
+.navCenter{
+  display: flex;
+  text-align: center;
+}
+
+.container{
+  display: flex;
+  display: inline-flex;
+}
+
+.itemLink{
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #76D7C4;
+  width: 150px;
+  height: 200px;
+  padding: 20px;
+  margin: 30px;
+}
