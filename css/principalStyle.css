@@ -60,10 +60,19 @@ footer{
   font-weight: 600;
 }
 
-#linkLinkedIn{
-  color: #000;
+.markCenter{
+  display: flex;
+  justify-content: space-between;
 }
 
-#linkInstagram{
+.marca1{
   color: #000;
+  display:block;
+  margin:auto; 
+}
+
+.marca2{
+  color: #000;
+  display:block;
+  margin:auto; 
 }
