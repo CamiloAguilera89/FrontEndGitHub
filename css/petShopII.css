@@ -1,0 +1,104 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* -------- header ------- */
+.fondoHeader{
+  background-color: #000;
+  color: #fff;
+}
+
+.menuNavegacion{
+  background-color: #FF9900;
+  padding: 20px;
+}
+nav li{
+  display: inline-flex;
+  justify-content: flex-end;
+  color: #fff;
+}
+
+.navCenter{
+  text-align: center;
+}
+.menuCenter{
+  display: flex;
+  justify-content: flex-end;
+}
+/* --------- Main ---------- */
+#banner{
+width: 100%;
+}
+
+#paw{
+  display: block;
+  margin:auto;
+  padding: 2%;
+
+}
+
+h1{
+  text-align: center;
+}
+
+.containerImg{
+  display: flex;
+  justify-content: space-around;
+}
+
+.item{
+  display: flex;
+  flex-direction: row;
+}
+
+.containerText{
+  display: flex;
+  justify-content: space-around;
+}
+.priceColor{
+  color: #FF9900;
+  padding: 20%;
+}
+
+.productSection{
+  display: flex;
+  justify-content: space-around;
+}
+
+.itemProduct{
+  display: flex;
+  flex-direction: row;
+}
+
+#contact{
+  text-align: center;
+  font-weight: 700;
+}
+
+.contactUs{
+  display: flex;
+  flex-direction: column;
+  background-color: #FF9900;
+  color: #fff;
+  
+}
+.itemDate{
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+section i{
+  width: 30px;
+}
+/* ----- Footer ------- */
+.markPetshop{
+  display: block;
+  margin:auto;
+}
+
+.backBlue{
+  background-color: #00FFFF;
+}

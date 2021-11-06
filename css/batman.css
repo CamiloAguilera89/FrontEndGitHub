@@ -34,12 +34,21 @@
   background-color: #005677;
   color:#FFFFFF;
 }
-
-.centrarMarca{
-  display: block;
-  text-align: center;
-  margin:auto;
+.contenedor{
+  display: flex;
 }
+.marca1{
+  /* justify-content: center;
+  text-align: center; */
+  
+  color: #FFFFFF;
+}
+.marca2{
+  /* justify-content: center;
+  text-align: center; */
+  color: #FFFFFF;
+}
+
 
 #nombre{
   display: block;
