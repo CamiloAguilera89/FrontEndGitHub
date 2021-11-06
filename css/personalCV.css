@@ -1,11 +1,24 @@
 *{
   padding: 0px;
   margin: 0px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{  
+  color: #005677;
+  text-align: center;
+}
+
+header i{
+  color: #FFFFFF;
 }
 
 .logoBatman{
   display:block;
   margin:auto;
+}
+
+.secciones{
+  height: 150px;
 }
 
 #fondoImagen{
@@ -14,11 +27,11 @@
 
 .titulo{
   width: auto;
+  border-radius: 10px;
   background-color: #C4C4C4;
-  height: 35px;
+  height: 32px;
   color: #005677;
   font-weight: bold;
-  font-size: 20px;
   display:block;
   margin:auto;
   padding: 10px;
@@ -31,11 +44,18 @@
   color:#FFFFFF;
 }
 
-.centrarMarca{
-  display: block;
-  text-align: center;
-  margin:auto;
+.marca1{
+  /* justify-content: center;
+  text-align: center; */
+  
+  color: #FFFFFF;
 }
+.marca2{
+  /* justify-content: center;
+  text-align: center; */
+  color: #FFFFFF;
+}
+
 
 #nombre{
   display: block;
