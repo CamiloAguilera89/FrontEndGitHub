@@ -16,6 +16,34 @@
   padding: 20px;
 }
 
+#bannerText1{
+  position: absolute;
+  width: 220px;
+  height: 40px;
+  left: 948px;
+  top: 237px;
+  color: #000;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+#bannerText2{
+  position: absolute;
+  left: 948px;
+  top: 287px;
+}
+
+#bannerText3{
+  position: absolute;
+  left: 948px;
+  top: 337px;
+  color: #fff;
+  width: 120px;
+  height: 30px;
+  background-color: #FF9900;
+}
+
 nav li{
   display: inline-flex;
   justify-content: flex-end;
