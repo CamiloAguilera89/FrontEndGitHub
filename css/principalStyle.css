@@ -6,7 +6,7 @@
 }
 
 header{
-  height: 90px;
+  height: 70px;
   width: 100%;
   background-color: #000;
   opacity: 0.8;
@@ -15,12 +15,17 @@ header{
 }
 
 .nameCenter{
-  /* align-self: flex-start; */
-  color: #fff;
+  color:#fff;
+  position: absolute;
+  top: 18px;
 }
 
 nav ul li a{
   color:#fff;
+}
+
+ul > li{
+  margin: 10px;
 }
 
 .navCenter{
@@ -44,9 +49,27 @@ nav ul li a{
   justify-content: space-between;
   background-color: #76D7C4;
   box-sizing: border-box;
-  width: 350px;
+  width: 400px;
   height: 400px;
   margin: 20px;
+}
+
+.subContainer{
+  width: 900px;
+  height: 150px;
+  padding: 10px;
+  margin: 20px;
+  box-sizing: border-box;
+  background-color: #000;
+  position: relative;
+  left: 170px;
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+}
+.subItem{
+  color: #fff;
+  display: flex;
 }
 
 a img{
