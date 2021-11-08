@@ -7,15 +7,15 @@
 h1{  
   color: #005677;
   text-align: center;
+  background-color: #C4C4C4;
+  width: auto;
+  height: 60px;
+  border-radius: 10px;
+  
 }
 
 #imgPersonal{
   color: #C4C4C4;
-  display:block;
-  margin:auto;
-}
-
-.logoBatman{
   display:block;
   margin:auto;
 }
@@ -52,4 +52,3 @@ h1{
   margin:auto;
   text-align: center;
 }
-

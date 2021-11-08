@@ -1,8 +1,12 @@
 *{
   padding: 0px;
   margin: 0px;
-  font-family: 'Balsamiq Sans', cursive;;
+  font-family: 'Balsamiq Sans', cursive;
   font-weight: 400;
+}
+
+body{
+  background: linear-gradient(to right, rgb(241, 237, 229), #ebb9dd, #c699e4, rgb(161, 238, 238));
 }
 
 header{
@@ -24,6 +28,10 @@ nav ul li a{
   color:#fff;
 }
 
+ul li > a{
+  text-decoration: none;
+}
+
 ul > li{
   margin: 10px;
 }
@@ -36,7 +44,19 @@ ul > li{
 .itemNav{
   display: flex;
   color: #fff;
+  text-decoration: none;
 }
+
+/* .number{
+  position: absolute;
+  left: 100px;
+  top: 100px;
+  color: #fff;
+  height: 20px;
+  width: 20px;
+  background-color: #000;
+  border-radius: 100%;
+} */
 
 .container{
   display: flex;
@@ -47,7 +67,7 @@ ul > li{
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color: #76D7C4;
+  background-color: #000;
   box-sizing: border-box;
   width: 400px;
   height: 400px;
@@ -55,20 +75,16 @@ ul > li{
 }
 
 .subContainer{
-  width: 900px;
-  height: 150px;
+  width: 400px;
+  height: 300px;
   padding: 10px;
   margin: 20px;
   box-sizing: border-box;
-  background-color: #000;
-  position: relative;
-  left: 170px;
-  display: flex;
-  flex-direction: row;
-  color: #fff;
+  background-color: #EBDEF0;
 }
+
 .subItem{
-  color: #fff;
+  color: #000;
   display: flex;
 }
 
