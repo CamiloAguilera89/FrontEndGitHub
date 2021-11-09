@@ -21,7 +21,7 @@ header{
 .nameCenter{
   color:#fff;
   position: absolute;
-  top: 18px;
+  padding: 20px 20px;
 }
 
 nav ul li a{
