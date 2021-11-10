@@ -45,9 +45,9 @@ header ul li a{
 
 .contenedor{
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding: 80px 80px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 40px 40px;
 }
 
 .item{
@@ -115,7 +115,7 @@ div p{
   color: #f3fef3;
   border-radius: 5px;
   position: absolute;
-  bottom: 15px;
+  bottom: 10px;
   right: 88px;
 }
 
