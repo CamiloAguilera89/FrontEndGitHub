@@ -8,6 +8,14 @@
 
 /* ------ HEADER --------- */
 
+body{
+  background: -webkit-linear-gradient(90deg, #F5EEF8 20%, #F1E3F6 90%);
+background: -moz-linear-gradient(90deg, #F5EEF8 20%, #F1E3F6 90%);
+background: -ms-linear-gradient(90deg, #F5EEF8 20%, #F1E3F6 90%);
+background: -o-linear-gradient(90deg, #F5EEF8 20%, #F1E3F6 90%);
+background: linear-gradient(90deg, #F5EEF8 20%, #F1E3F6 90%);
+}
+
 header{
   z-index: 1;
   position: fixed;
