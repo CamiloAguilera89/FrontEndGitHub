@@ -7,10 +7,6 @@
 }
 
 /* ------ HEADER --------- */
-#barraDescuentos #tituloHeroes{
-  position: fixed;
-  z-index: 1;
-}
 
 .navCenter{
   display: flex;
@@ -51,12 +47,13 @@ header ul li a{
   display: flex;
   flex-direction: row;
   justify-content: center;
+  padding: 80px 80px;
 }
 
 .item{
   position: relative;
   border-radius: 18px 18px;
-  margin: 60px;
+  margin: 50px;
   text-align: center;
   padding-bottom: 90px;
   width: 300px;
@@ -123,6 +120,7 @@ div p{
 }
 
 /* ------ FOOTER ------ */
+
 #footerBar{
   background-color: #1CD1B0;
   height: 51px;
