@@ -1,0 +1,119 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700; 
+  box-sizing: border-box;
+}
+
+/* ----HEADER -------- */
+
+#pizzaLogo{
+  display: flex;
+  justify-content: space-between;
+  height: 110px;
+  background-color: #222222;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.navCentral{
+  list-style: none;
+  align-items: center;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+ul > li > a{
+  text-decoration: none;
+  color: #fff;
+}
+
+/* ----- BODY ----- */
+
+body{
+  background: #E5E5E5;
+}
+
+.contenedor{
+  display: flex;
+  border-radius: 10px;
+}
+
+.caja{
+  background-color: #fff;
+  height: 350px;
+  width: 490px;
+  margin: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 10px;
+}
+
+#gratis{
+  position: absolute; 
+  top: 200px;
+  left: 90px;
+  color: #fff;
+}
+
+#comprar{
+  position: absolute;
+  top: 200px;
+  left: 180px;
+  color: #FC200C;
+}
+
+#centrarH1{
+  color: #FC200C;
+  text-align: center;
+  width: 490px;
+  padding-top: 10px;
+}
+
+.itemCentrado{
+  list-style-position: inside;
+  padding-left: 2em;
+}
+
+.arbolCentrado{
+  width: 92px;
+  height: 129px;
+  margin-left: 120px;
+}
+
+#topPizzas{
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+
+/* ------ FOOTER ----- */
+.imgFoot{
+  display: flex;
+  justify-content: space-between;  
+}
+
+footer{
+  height: 130px;
+  width: 100%;
+  background-color: #222222;
+  padding-top: 5px;
+
+}
+
+.footCentral{
+  color: #fff;
+  margin: 7px;
+  list-style: none;
+  
+}
+
+footer div > img{
+  padding-right: 20px;
+  padding: 10px 10px;
+}
