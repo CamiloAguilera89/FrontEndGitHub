@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@0;1&family=Handlee&family=Roboto:wght@400;700&display=swap');
+
+
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+/* -------- header ------- */
+
+.fondoHeader{
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px; 
+  padding-left: 15px;
+  align-items: center;
+}
+
+.menuNavegacion{
+  background-color: #FF9900;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 20px;
+  align-items: center;
+}
+
+section img nav ul{
+  list-style: none;
+}
+
+#markPetshop{
+  width: 167px;
+  height: 23px;
+  align-items: center;
+}
+
+#banner{
+  background-size: 100%;
+  display: flex;
+  background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
+  height: 420px;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#bannerText{
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+/* --------- Main ---------- */
+
+.bannerItem1{
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  margin-right: 30px;
+  background-color: #fff;
+  display: flex;
+  width: 380px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.bannerItem{
+  margin: 10px;
+  font-weight: 400;
+  align-content: center;
+}
+
+.bannerItem2{
+  margin: 10px;
+  font-weight: 400;
+  align-items: center;
+  background-color: #F0A83E;
+  width: 141px;
+  height: 49px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+nav li{
+  display: inline-flex;
+  justify-content: flex-end;
+  color: #fff;
+}
+
+ul > li {
+  margin: 5px;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+
+#paw{
+  display: block;
+  margin:auto;
+  padding: 2%;
+}
+
+.productSection{
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card{
+  justify-content: center;
+}
+
+.contentCenter{
+  text-align: center;
+  align-content: flex-end;
+}
+
+#card1{
+  background-image: url(../img/churrasquito.png);
+  width: 265px;
+  height: 312px;
+  align-items: flex-end;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+#card2{
+  text-align: center;
+  background-image: url(../img/comedero.png);
+  width: 265px;
+  height: 312px;
+  align-items: flex-end;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+#card3{
+  text-align: center;
+  background-image: url(../img/Huesito.png);
+  width: 265px;
+  height: 312px;
+  align-items: flex-end;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.phCenter{
+  font-size: 18px;
+}
+
+.priceCenter{
+  color: #FF9900;
+}
+
+.itemProduct{
+  padding: 10px;
+  line-height: 18px;
+}
+
+h1{
+  text-align: center;
+}
+
+#contact{
+  text-align: center;
+  font-weight: 700;
+  font-size: 25px;
+  padding-top: 90px;
+}
+
+.contactUs{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 30px;
+}
+
+.boxButtom{
+  color: #fff;
+  background-color: #3c2313;
+  width: 460px;
+  height: 40px;
+  text-align: center;
+  margin: 5px;
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
+  justify-content:flex-start;
+  font-size: 15px;
+}
+
+.send{
+  color: #fff;
+  width: 90px;
+  height: 40px;
+  background-color: #F0A83E;
+  margin-left: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+#buttomSend{
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+/* ----- Footer ------- */
+
+#suscribeLine{
+  background-color: #FF9900;
+  margin-top: 100px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+#mailImg{
+  align-items: center;
+  color: #fff; 
+  padding-left: 20px;
+  display: flex;
+  padding-right: 10px;
+}
+
+#suscribePh{
+  color: #fff;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+#userSuscribe{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#email{
+  width: 340px;
+  border-radius: 5px;
+  height: 40px;
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  background-color: #fff;
+}
+
+#suscribeButtom{
+  color: #fff;
+  background-color: #3C2313;
+  border-radius: 5px;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#itemDate{
+  background-color: #3c2313;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  padding-left: 60px;
+  padding-top: 10px;
+  width: auto;
+}
+
+#logoFoot{
+  display: flex;
+  justify-content: center;
+}
+
+#finalFoot{
+  background-color: #000;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  display: flex;
+}
