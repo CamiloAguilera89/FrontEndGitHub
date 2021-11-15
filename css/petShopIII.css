@@ -34,12 +34,6 @@ section img nav ul{
   list-style: none;
 }
 
-#markPetshop{
-  width: 167px;
-  height: 23px;
-  align-items: center;
-}
-
 #banner{
   background-size: 100%;
   display: flex;
@@ -234,12 +228,12 @@ h1{
   height: 50px;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 #mailImg{
   align-items: center;
   color: #fff; 
-  padding-left: 20px;
   display: flex;
   padding-right: 10px;
 }
@@ -278,19 +272,40 @@ h1{
   justify-content: center;
 }
 
+p#suscribeButtom {
+  margin-left: 5px;
+}
+
 #itemDate{
   background-color: #3c2313;
   display: flex;
   flex-direction: column;
   color: #fff;
-  padding-left: 60px;
   padding-top: 10px;
   width: auto;
+}
+
+.itemRow{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 50px;
+  margin: 5px;
+}
+
+.itemRow p{
+  padding-left: 20px;
 }
 
 #logoFoot{
   display: flex;
   justify-content: center;
+}
+
+#markPetshop{
+  width: 167px;
+  height: 23px;
+  display: flex;
 }
 
 #finalFoot{
