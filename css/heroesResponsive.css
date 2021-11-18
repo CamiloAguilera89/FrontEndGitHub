@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@0;1&family=Handlee&family=Roboto:wght@400;500;700;900&display=swap');
+
+
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;;
+  font-weight: 400; 
+  box-sizing: border-box;
+}
+
+/* ------ HEADER --------- */
+
+body{
+  background-color: #E5E5E5;
+}
+
+header{
+  width: 100vw;
+  position: fixed;
+  width: 100vw;
+  z-index: 1;
+  box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+#navCenter a{
+  color: #fff;
+  text-decoration: none;
+  padding-right: 2rem;
+}
+
+#percent{
+  background-color: #D1891C;
+  height: 40px;
+  width: 100vw;
+  align-items: center;
+  display: flex;
+  padding-left: 1rem;
+  font-size: 19px;
+}
+
+#tittle-heroes{
+  background-color: #00669F;
+  color: #fff;
+  height: 84px;
+  display: flex;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1rem;
+}
+
+/* -----MAIN ------- */
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 170px;
+  justify-content: space-evenly;
+}
+
+.item{
+  height: 500px;
+  width: 320px;
+  margin: 2rem;
+  text-align: center;
+  border-radius: 18px 18px;
+  background-color: #F3F3F3;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.border-profile{
+  width: 100px;
+  height: 100px;
+  border-radius: 150px;
+  position: absolute;
+  top: 145px;
+  left: 110px;
+}
+
+div i{
+  color: #CC2424;
+  position: absolute;
+  left: 15px;
+  top: 10px;
+}
+
+.border-img{
+  width: 320px;
+  height: 200px;
+  border-radius: 18px;
+}
+
+.tittle-2{
+  position: relative;
+  text-align: center;
+  top: 50px;
+  right: 2px;
+}
+
+#navCenter{
+  display: flex;
+  justify-content: flex-end;
+}
+
+section div p{
+  position: relative;
+  top: 50px;
+  width: 300px;
+  margin: 5px 5px;
+  padding-left: 11px;
+  text-align: justify;
+}
+
+.button{
+  background: #00669f;
+  width: 125.78px;
+  height: 48.52px;
+  color: #f3fef3;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 10px;
+  left: 100px;
+}
+
+#plus-cirlce{
+  color: #00669F;
+  position: absolute;
+  position: sticky;
+  left: 1275px;
+  height: 64px;
+  bottom: 0em;
+}
+/* ------ FOOTER ------ */
+
+#footerBar{
+  background-color: #00669F;
+  height: 85px;
+  color: #FFF9F9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#git{
+  color: #fff;
+  font-size: 30px;
+  font-weight: 900;
+  padding-left: 90%;
+  position: absolute;
+}
+
+
+/* ----MEDIA QUERIES ----- */
+
+@media (max-width: 465px){
+  #footerBar, #git{
+    /* flex-direction: column; */
+    /* background-color: #D1891C; */
+    display: none;
+  }
+
+  #plus-cirlce{
+    visibility: hidden;
+  }
+}

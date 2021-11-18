@@ -16,12 +16,15 @@ header{
   opacity: 0.8;
   position: fixed;
   z-index: 1;
+  display: flex;
+  justify-content: space-between;
 }
 
 .nameCenter{
   color:#fff;
-  position: absolute;
-  padding: 20px 20px;
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
 }
 
 nav ul li a{
@@ -81,7 +84,6 @@ a img{
   display: flex;
   flex-direction: column;
   align-content: center;
-  /* justify-content: center; */
   justify-content: space-around;
 }
 
