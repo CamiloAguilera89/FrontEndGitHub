@@ -16,7 +16,6 @@ body{
 }
 
 header{
-  width: 100vw;
   position: fixed;
   width: 100vw;
   z-index: 1;
@@ -37,6 +36,7 @@ header{
   display: flex;
   padding-left: 1rem;
   font-size: 19px;
+  color: #fff;
 }
 
 #tittle-heroes{
@@ -157,12 +157,16 @@ section div p{
 
 @media (max-width: 465px){
   #footerBar, #git{
-    /* flex-direction: column; */
-    /* background-color: #D1891C; */
-    display: none;
+    background-color: #D1891C;
   }
 
   #plus-cirlce{
     visibility: hidden;
+  }
+
+}
+@media (max-width: 1024px){
+  #git{
+    display: none;
   }
 }
