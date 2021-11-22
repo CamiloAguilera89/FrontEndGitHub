@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title id="barraDescuentos">Heroes</title>
+    <title>Heroes</title>
     <link rel="stylesheet" href="../css/heroes.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
       integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
@@ -23,10 +23,18 @@
         <p>Descuentos 20%</p>
       </div>
       <div class="tittle-heroes">
+        <img src="../img/OBJECTS.png" alt="Tienda Online">
         <h1>Heroes DC</h1>
-        <div class="navCenter">
-          <a href="../index.html">Regresar al inicio</a>
-        </div>
+      </div>
+      <div>
+        <nav>
+          <ul class="nav-end">
+            <li><a href="../index.html">Volver al inicio</a></li>
+            <li><a href="./contactoHeroes.html">Contacto</a></li>
+            <li><a href="./registroHeroes.html">Registrarme</a></li>
+            <li><a href="./loginHeroes.html">Ingresar</a></li>
+          </ul>
+        </nav>
       </div>
     </header>
 
@@ -42,7 +50,7 @@
             Hombre Murciélago) es un personaje de cómic creado por los
             estadounidenses Bob Kane y Bill Finger,13​ y propiedad de DC Comics.
           </p>
-          <button class="boton">Ver más</button>
+          <button class="boton" onclick="location.href='../paginasSecundarias/detalleHeroesBatman.html'">Ver más</a></button>
         </div>
 
         <div class="item">
@@ -55,7 +63,7 @@
             por el escritor estadounidense Paul Dini para modificar una escena
             del vigésimo-segundo episodio de Batman: la serie animada
           </p>
-          <button class="boton">Ver más</button>
+          <button class="boton" onclick="location.href='../paginasSecundarias/detalleHeroesQuinn.html'">Ver más</a></button>
         </div>
 
         <div class="item">
@@ -68,7 +76,7 @@
             Comics, Hiedra se ha unido en ocasiones con las villanas Catwoman y
             Harley Quinn, con Harley como su amiga íntima, aliada y recurrente.
           </p>
-          <button class="boton">Ver más</button>
+          <button class="boton" onclick="location.href='../paginasSecundarias/detalleHeroesHiedra.html'">Ver más</a></button>
         </div>
 
         <div class="item">
@@ -154,6 +162,7 @@
           <button class="boton">Ver más</button>
         </div>
       </section>
+      <i id="plus-cirlce" class="fas fa-plus-circle fa-4x"></i>
     </main>
     <footer>
       <p id="footerBar">Todos los derechos reservados, FRONT END 1</p>

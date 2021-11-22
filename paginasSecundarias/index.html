@@ -29,5 +29,92 @@
       <li><a href="">Ticket</a></li>
     </nav>
    </header> -->
+   <form action="resultado.html" method="post">
+    <input type="text" name="nombre" id="nombre">
+    <label for="nombre">Nombre</label>
+   </form>
+
+   <form action="resultado.html" method="POST">
+    <p>
+      <label for="nombre">Nombre</label>
+      <input type="text" name="nombre" id="nombre">
+    </p>
+    <p>
+      <label for="e-mail">E-mail</label>
+      <input type="email" name="e-mail" id="e-mail">
+    </p>
+    <p>
+      <label for="contraseña">Contraseña</label>
+      <input type="password" name="contraseña" id="contraseña">
+    </p>
+
+    <p>
+        <label>Nombre:</label>
+        <input type="text" name="nombre" required>
+      </p>
+
+      <p>
+        <label>E-mail:</label>
+        <input type="email" name="email" required>
+      </p>
+
+      <p>
+        <label>Contraseña:</label>
+        <input type="password" name="password" required>
+      </p>
+
+      <p>
+        <label for="enviar">Enviar</label>
+        <input type="submit" value="ENVIAR">
+      </p>
+    </form>
+   </form>
+
+    <form action="resultado.html" method="POST">
+      <label for="mascota">¿Tenés mascota?</label>
+      <input type="radio" name="mascota" value="si">
+      <input type="radio" name="mascota" value="no">
+      <input type="submit" value="Enviar">
+    </form>
+
+    <form action="resultado.html" method="POST">
+      <label for="hobby">¿Cuáles son tus hobbies?</label>  
+      <input type="checkbox" name="hobby" value="Pescar">
+      <label for="hobby">Pescar</label>
+      <input type="checkbox" name="hobby" value="Correr">
+      <label for="hobby">Correr</label>
+      <input type="checkbox" name="hobby" value="Yoga">
+      <label for="hobby">Yoga</label>
+      <input type="submit" value="Enviar">
+    </form>
+
+    <form action="resultado.html" method="POST">
+      <label>Elegí el mes de tu cumpleaños</label>
+        <input type="date" name="mes">  
+        <label for="mes">Elige el mes de tu cumpleaños</label>
+        <select name="mes" id="mes">
+          <option value="1">Enero</option>
+          <option value="2">febrero</option>
+          <option value="3">Marzo</option>
+          <option value="4">Abril</option>
+          <option value="5">Mayo</option>
+          <option value="6">Junio</option>
+          <option value="7">Julio</option>
+          <option value="8">Agosto</option>
+          <option value="9">Septiembre</option>
+          <option value="10">Octubre</option>
+          <option value="11">Noviembre</option>
+          <option value="12">Diciembre</option>
+        </select>
+      <input type="submit" value="Enviar">
+    </form>
+
+    <form action="resultado.html" method="POST">
+      <label>Dejanos tu comentario</label>
+      <button type="reset">Borrar</button>  
+      <button type="submit">Enviar</button>
+      <textarea name="comentario" id="comentario" cols="10" rows="1"></textarea>
+
+    </form>
 </body>
 </html>

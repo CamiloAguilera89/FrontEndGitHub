@@ -51,6 +51,11 @@ h1{
   align-items: center;
 }
 
+.nav-end li{
+  text-decoration: none;
+  list-style: none;
+}
+
 .nav-end a{
   color: #fff;
   text-decoration: none;
@@ -58,89 +63,90 @@ h1{
   font-size: 16px;
 }
 
-.nav-end li{
-  text-decoration: none;
-  list-style: none;
-}
-
 /* ------------- MAIN ---------- */
 
-.contenedor{
+.registro {
+  padding-top: 15rem;
+  padding-bottom: 5rem;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  padding-top: 180px;
-  padding-bottom: 20px;
+  justify-content: center;
 }
 
-.item{
-  position: relative;
-  border-radius: 18px 18px;
-  margin: 50px;
-  text-align: center;
-  width: 300px;
-  height: 520px;
-  background: #F3F3F3;
+form{
+  display: flex;
+  flex-direction: column;
+  width: 28rem;
 }
 
-div i{
-  color: #CC2424;
-  position: absolute;
-  left: 15px;
-  top: 10px;
+form input{
+  border-radius: 10px;
+  font-size: 15px;
+  padding: 0.5rem 0.5rem;
 }
 
-.imgRedonda{
-  width: 100px;
-  height: 100px;
-  border-radius: 150px;
-  position: absolute;
-  top: 140px;
-  left: 103px;
+button[type="submit"]{
+  margin: 1rem;
+  background-color: #1CD1B0;
+  border-radius: 10px;
+  font-size: 17px;
+  height: 2.5rem;
+  width: 10rem;
+  color: #fff;
 }
 
-.bordes{
-  width: 300px;
-  height: 190px;
-  border-radius: 18px;
+button[type="reset"]{
+  margin: 1rem;
+  width: 10rem;
+  background-color: #1CD1B0;
+  border-radius: 10px;
+  font-size: 17px;
+  height: 2.5rem;
+  color: #fff;
 }
 
-.titulo2{
-  position: relative;
-  text-align: center;
-  top: 20px;
-  right: 2px;
-  top: 60px;
+select{
+  height: 2rem;
+  border-radius: 10px;
+  margin: 1rem;
+  font-size: 15px;
+  border-width: 0.1rem;
+  height: 2.5rem;
 }
 
-section div p{
-  position: relative;
-  top: 70px;
-  width: 280px;
-  margin: 5px 5px 5px;
-  padding-left: 10px;
-  text-align: justify;
+input[type="text"]{
+  margin: 0.5rem;
 }
 
-.boton {
-  background: #00669f;
-  width: 125.78px;
-  height: 48.52px;
-  color: #f3fef3;
-  border-radius: 5px;
-  position: absolute;
-  bottom: 10px;
-  right: 88px;
+input[type="email"]{
+  margin: 0.5rem;
 }
 
-#plus-cirlce{
-  color: #00669F;
-  position: absolute;
-  position: sticky;
-  left: 1275px;
-  height: 64px;
-  bottom: 0em;
+input[type="password"]{
+  margin: 0.5rem;
 }
+
+h2{
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+#separation-item span{
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+#separation-item a{
+  text-decoration: none;
+}
+
+.botones{
+  display: flex;
+  justify-content: center;
+}
+
 /* ------ FOOTER ------ */
 
 #footerBar{
