@@ -22,7 +22,7 @@
 
 .menuNavegacion{
   background-color: #FF9900;
-  height: 5rem;
+  height: 4rem;
   display: flex;
   justify-content: space-between;
   padding-left: 1.5rem;
@@ -44,9 +44,10 @@ nav > ul > i{
 
 .banner{
   background-size: 100vw;
+  margin-bottom: 2rem;
   display: flex;
   background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
-  height: 40rem;
+  height: 30rem;
   background-repeat: no-repeat;
   align-items: center;
   justify-content: flex-end;
@@ -108,9 +109,9 @@ ul li a{
 }
 
 #paw{
-  display: block;
+  display: flex;
   margin:auto;
-  padding: 0.2rem;
+  padding: 1rem;
 }
 
 .productSection{
@@ -122,10 +123,6 @@ ul li a{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-}
-
-.card{
-  justify-content: center;
 }
 
 .contentCenter{
@@ -140,7 +137,7 @@ ul li a{
   align-items: flex-end;
   display: flex;
   justify-content: center;
-  margin: 10px;
+  margin: 1rem;
 }
 
 #card2{
@@ -151,7 +148,7 @@ ul li a{
   align-items: flex-end;
   display: flex;
   justify-content: center;
-  margin: 10px;
+  margin: 1rem;
 }
 
 #card3{
@@ -162,7 +159,7 @@ ul li a{
   align-items: flex-end;
   display: flex;
   justify-content: center;
-  margin: 10px;
+  margin: 1rem;
 }
 
 .phCenter{
@@ -187,14 +184,14 @@ h1{
   text-align: center;
   font-weight: 700;
   font-size: 25px;
-  padding-top: 7rem;
+  padding-top: 5rem;
 }
 
 .contactUs{
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding-top: 3rem;
+  padding-top: 1.5rem;
 }
 
 .boxButtom{
@@ -202,10 +199,9 @@ h1{
   background-color: #3c2313;
   width: 30rem;
   height: 3rem;
-  text-align: center;
   margin: 0.5rem;
-  padding-left: 0.9rem;
-  border-radius: 1rem;
+  padding-left: 0.5rem;
+  border-radius: 12px;
   align-items: center;
   display: flex;
   justify-content:flex-start;
@@ -217,11 +213,11 @@ h1{
   width: 7rem;
   height: 3rem;
   background-color: #F0A83E;
-  margin-left: 0.5rem;
+  margin-left: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 0.9rem;
+  border-radius: 10px;
 }
 
 #buttomSend{
@@ -234,7 +230,7 @@ h1{
 
 #suscribeLine{
   background-color: #FF9900;
-  margin-top: 10rem;
+  margin-top: 6rem;
   height: 4rem;
   display: flex;
   align-items: center;
@@ -263,7 +259,7 @@ h1{
 
 #email{
   width: 23rem;
-  border-radius: 10px;
+  border-radius: 12px;
   padding-left: 0.5rem;
   height: 3rem;
   display: flex;
@@ -275,7 +271,7 @@ h1{
 #suscribeButtom{
   color: #fff;
   background-color: #3C2313;
-  border-radius: 10px;
+  border-radius: 12px;
   width: 8rem;
   height: 3rem;
   text-align: center;
@@ -368,9 +364,17 @@ p#suscribeButtom {
   #bannerText{
     display: none;
   }
+
+  .banner{
+    height: 20rem;
+  }
 }
 
 @media (max-width: 668px){
+  .banner{
+    height: 15rem;
+  }
+
   #suscribeLine{
     display: flex;
     justify-content: center;
