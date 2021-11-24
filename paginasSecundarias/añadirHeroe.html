@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es-419">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Heroes</title>
+    <link rel="stylesheet" href="../css/añadirHeroe.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@0;1&family=Handlee&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet" />
+  </head>
+
+  <body>
+    <header>
+      <div class="percent">
+        <p>Descuentos 20%</p>
+      </div>
+      <div class="tittle-heroes">
+        <img src="../img/OBJECTS.png" alt="Tienda Online" />
+        <h1>Heroes DC</h1>
+      </div>
+      <div>
+        <nav>
+          <ul class="nav-end">
+            <li><a href="../paginasSecundarias/heroes.html">Regresar</a></li>
+            <li><a href="./contactoHeroes.html">Contacto</a></li>
+            <li><a href="./registroHeroes.html">Registrarme</a></li>
+            <li><a href="./loginHeroes.html">Ingresar</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="container">
+        <div class="container-add">
+          <div class="tittle-center">
+            <h2>Agrega tu Super Heroe!</h2>
+            <p>Añade tu personaje favorito completando las opciones.</p>
+          </div>
+          <div class="up-container">
+            <div class="child-container">
+              <form action="./heroes.html" method="post" class="child-container">
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" required />
+                <label for="fecha">fecha</label>
+                <input type="date" min="1990-01-01" max="2021-12-31" required />
+                <textarea name="features" cols="30" rows="10"></textarea>
+              </form>
+            </div>
+            <div class="child-container">
+              <form action="./heroes.html" method="post">
+                <label for="especie">Especie</label>
+                <div>
+                  <select name="especie" id="especie" required>
+                    <option value="shiar">Shiar</option>
+                    <option value="asgardianos">Asgardianos</option>
+                    <option value="celestivos">Celestivos</option>
+                    <option value="infinitos">Infinitos</option>
+                    <option value="kree">Kree</option>
+                  </select>
+                </div>
+                <div id="down-file">
+                  <label for="">Agregar Foto</label>
+                  <input type="file" name="archivo" id="archivo" />
+                </div>
+              </form>
+
+              <form action="resultado.html" method="POST">
+                <p>Poderes</p>
+                <div>
+                  <input type="checkbox" name="volar" value="Pescar" />
+                  <label for="hobby">Volar</label>
+                </div>
+                <div>
+                  <input type="checkbox" name="Inteligencia" value="Correr" />
+                  <label for="hobby">Super Inteligencia</label>
+                </div>
+                <div>
+                  <input type="checkbox" name="hobby" value="Yoga" />
+                  <label for="hobby">Vista e rayo laser</label>
+                </div>
+                <div>
+                  <input type="checkbox" name="hobby" value="Yoga" />
+                  <label for="hobby">Billetera Gorda</label>
+                </div>
+              </form>
+              <hr />
+              <p>Tipo de personaje</p>
+              <form action="./heroes.html">
+                <div>
+                  <input type="radio" name="heroe" value="heroe" />
+                  <label for="pescar">Héroe / Heroina</label>
+                </div>
+                <div>
+                  <input type="radio" name="villano" value="villano" />
+                  <label for="villano">Villano / Villana</label>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div id="button-add">
+            <button>Añadir</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    
+    <footer>
+      <p id="footerBar">Todos los derechos reservados, FRONT END 1</p>
+    </footer>
+  </body>
+
+</html>

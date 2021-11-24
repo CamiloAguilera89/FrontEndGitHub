@@ -101,6 +101,10 @@ input[type="text"]{
   margin: 0.5rem;
 }
 
+input:focus{
+  background-color: #1CD1B0;
+}
+
 input[type="password"]{
   margin: 0.5rem;
   width: 28rem;

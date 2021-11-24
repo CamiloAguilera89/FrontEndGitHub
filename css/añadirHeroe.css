@@ -47,7 +47,7 @@ h1{
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  height: 1.7rem;
+  height: 1.6rem;
   align-items: center;
 }
 
@@ -55,7 +55,7 @@ h1{
   color: #fff;
   text-decoration: none;
   padding-right: 2rem;
-  font-size: 17px;
+  font-size: 16px;
 }
 
 .nav-end li{
@@ -65,88 +65,101 @@ h1{
 
 /* ------------- MAIN ---------- */
 
-.contenedor{
+.container{
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  padding-top: 180px;
-  padding-bottom: 20px;
+  justify-content: center;
 }
 
-.item{
-  position: relative;
-  border-radius: 18px 18px;
-  margin: 50px;
+.container-add{
+  display: flex;
+  flex-direction: column;
+  background-color: #00669F;
+  margin-top: 11rem;
+  margin-bottom: 5rem;
+  height: 40rem;
+  width: 50rem;
+  border-radius: 15px;
+}
+
+.tittle-center{
+  flex-direction: column;
   text-align: center;
-  width: 300px;
-  height: 520px;
-  background: #F3F3F3;
-  box-shadow: 0px 8px 20px -5px rgba(29, 29, 29, 0.5);
+  padding-top: 2rem;
+  display: flex;
+  padding-bottom: 2rem;
+  color: #fff;
 }
 
-div i{
-  color: #CC2424;
-  position: absolute;
-  left: 15px;
-  top: 10px;
+label{
+  color: #fff;
 }
 
-.imgRedonda{
-  width: 119px;
-  height: 119px;
-  border-radius: 150px;
-  position: absolute;
-  top: 130px;
-  left: 89px;
-  box-shadow: 0px 5px 5px rgb(102, 99, 99);
+p{
+  color: #fff;
 }
 
-.bordes{
-  width: 300px;
-  height: 190px;
-  border-radius: 18px;
+h2{
+  padding-bottom: 1rem;
 }
 
-.titulo2{
-  position: relative;
-  text-align: center;
-  top: 20px;
-  right: 2px;
-  top: 60px;
+.up-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-section div p{
-  position: relative;
-  top: 70px;
-  width: 280px;
-  margin: 5px 5px 5px;
-  padding-left: 10px;
-  text-align: justify;
+.child-container{
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
 }
 
-.boton {
-  background: #00669f;
-  width: 125.78px;
-  height: 48.52px;
-  color: #f3fef3;
-  border-radius: 5px;
-  position: absolute;
-  bottom: 10px;
-  right: 88px;
-  font-size: 15px;
+#down-file{
+  display: flex;
+  flex-direction: column;
 }
 
-#plus-circle{
-  color: #00669F;
-  position: absolute;
-  position: sticky;
-  left: 1275px;
-  height: 64px;
-  bottom: 0em;
+#child-form{
+  display: flex;
 }
 
-#plus-circle:hover{
-  color: #004367;
+
+input[type="text"]{
+  width: 7rem;
+  height: 2rem;
+  border-radius: 10px;
+}
+
+input[type="date"]{
+  width: 7rem;
+  height: 2rem;
+  border-radius: 10px;
+}
+
+select{
+  width: 7rem;
+  height: 2rem;
+  border-radius: 10px;
+}
+
+textarea{
+  margin-top: 1rem;
+  border-radius: 10px;
+}
+
+#button-add{
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+button{
+  border-radius: 10px;
+  height: 4rem;
+  width: 10rem;
+  background-color:#1CD1B0;
+  color: #fff;
+  font-size: 16px;
 }
 
 button:hover{
