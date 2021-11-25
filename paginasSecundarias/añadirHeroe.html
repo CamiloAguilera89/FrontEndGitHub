@@ -45,21 +45,23 @@
             <h2>Agrega tu Super Heroe!</h2>
             <p>Añade tu personaje favorito completando las opciones.</p>
           </div>
+
           <div class="up-container">
             <div class="child-container">
               <form action="./heroes.html" method="post" class="child-container">
                 <label for="nombre">Nombre</label>
                 <input type="text" name="nombre" required />
-                <label for="fecha">fecha</label>
+                <label for="fecha">Fecha</label>
                 <input type="date" min="1990-01-01" max="2021-12-31" required />
-                <textarea name="features" cols="30" rows="10"></textarea>
+                <textarea name="features" cols="30" rows="12" placeholder="Descripción"></textarea>
               </form>
             </div>
             <div class="child-container">
-              <form action="./heroes.html" method="post">
+              <form action="./heroes.html" method="post" id="pad-sup">
                 <label for="especie">Especie</label>
                 <div>
                   <select name="especie" id="especie" required>
+                    <option>Elige una opción</option>
                     <option value="shiar">Shiar</option>
                     <option value="asgardianos">Asgardianos</option>
                     <option value="celestivos">Celestivos</option>
@@ -76,11 +78,11 @@
               <form action="resultado.html" method="POST">
                 <p>Poderes</p>
                 <div>
-                  <input type="checkbox" name="volar" value="Pescar" />
+                  <input type="checkbox" name="volar" value="volar" />
                   <label for="hobby">Volar</label>
                 </div>
                 <div>
-                  <input type="checkbox" name="Inteligencia" value="Correr" />
+                  <input type="checkbox" name="Inteligencia" value="inteligencia" />
                   <label for="hobby">Super Inteligencia</label>
                 </div>
                 <div>
@@ -91,10 +93,12 @@
                   <input type="checkbox" name="hobby" value="Yoga" />
                   <label for="hobby">Billetera Gorda</label>
                 </div>
+                <br>
               </form>
               <hr />
+              <br>
               <p>Tipo de personaje</p>
-              <form action="./heroes.html">
+              <form action="./heroes.html" method="post">
                 <div>
                   <input type="radio" name="heroe" value="heroe" />
                   <label for="pescar">Héroe / Heroina</label>

@@ -75,10 +75,10 @@ h1{
   flex-direction: column;
   background-color: #00669F;
   margin-top: 11rem;
-  margin-bottom: 5rem;
+  margin-bottom: 4rem;
   height: 40rem;
-  width: 50rem;
-  border-radius: 15px;
+  width: 45rem;
+  border-radius: 20px;
 }
 
 .tittle-center{
@@ -86,11 +86,7 @@ h1{
   text-align: center;
   padding-top: 2rem;
   display: flex;
-  padding-bottom: 2rem;
-  color: #fff;
-}
-
-label{
+  padding-bottom: 1rem;
   color: #fff;
 }
 
@@ -117,23 +113,31 @@ h2{
 #down-file{
   display: flex;
   flex-direction: column;
+  padding-top: 0.5rem;
+  padding-bottom: 2rem;
 }
 
 #child-form{
   display: flex;
 }
 
-
-input[type="text"]{
-  width: 7rem;
+.child-container [type="text"], [type="date"]{
+  width: 18rem;
   height: 2rem;
   border-radius: 10px;
 }
 
-input[type="date"]{
-  width: 7rem;
-  height: 2rem;
-  border-radius: 10px;
+select[id="especie"]{
+  width: 15rem;
+}
+
+#pad-sup{
+  margin-top: 0.7rem;
+}
+
+label{
+  padding-top: 1rem;
+  color: #fff;
 }
 
 select{
@@ -143,14 +147,13 @@ select{
 }
 
 textarea{
-  margin-top: 1rem;
+  margin-top: 2rem;
   border-radius: 10px;
 }
 
 #button-add{
   display: flex;
   justify-content: center;
-  padding-top: 2rem;
 }
 
 button{
