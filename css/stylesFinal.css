@@ -1,0 +1,366 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
+
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-weight: 500; 
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+:root {
+  --manatee: #8F94A7;
+  --blackRussian: #1D1E25;
+  --coral: #F68F75;
+  --snow: #F9F9F9;
+  --lightOrange: #F3603B;
+  --blueJay: #232C51;
+}
+
+
+/* -----------------HEADER------------------ */
+.container-header{
+  height: 6rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container-header img{
+  margin-left: 2.5rem;
+}
+
+.container-header div{
+  padding-right: 6rem;
+}
+
+#central-navigation {
+  display: flex;
+  flex-direction: row;
+}
+
+#central-navigation li{
+  list-style-type: none;
+  font-size: 20px;
+  padding: 1rem;
+}
+
+#central-navigation li a{
+  font-weight: 700;
+  color: var(--blueJay);
+}
+
+#central-navigation li a:hover{
+  color: var(--manatee);
+}
+
+.button-started{
+  height: 2.75rem;
+  background-color: var(--lightOrange);
+  border-radius: 50px;
+  color: var(--snow);
+  border: none;
+  cursor: pointer;
+}
+
+.button-started:hover{
+  background-color: var(--coral);
+}
+
+button{
+  border-radius: 30px;
+  width: 8.37rem;
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
+
+
+/* -----------------MAIN------------------ */
+.container{
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.item{
+  width: 35.28rem;
+  height: 32.81rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.item2{
+  width: 30rem;
+  height: 32rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-right: 6rem;
+}
+
+.item3{
+  width: 30rem;
+  height: 32rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-right: 4rem;
+}
+
+h1{
+  font-weight: 700;
+  font-size: 58px;
+  color: var(--blueJay);
+}
+
+h2{
+  font-size: 36px;
+}
+
+.button-before{
+  background-color: var(--lightOrange);
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  width: 4rem;
+  height: 2.5rem;
+}
+
+#pseudo1::after{
+  content: "Track company-wide progress";
+  margin-left: 0.7rem;
+  font-weight: 700;
+}
+
+#pseudo2::after{
+  content: "Advance built-in reports";
+  margin-left: 0.7rem;
+  font-weight: 700;
+}
+
+#pseudo3::after{
+  content: "Everything you need in one place";
+  margin-left: 0.7rem;
+  font-weight: 700;
+}
+
+.item p{
+  font-size: 17px;
+  color: var(--blackRussian);
+  padding-top: 2rem;
+  padding-right: 10rem;
+  padding-bottom: 2rem;
+}
+
+.item2 h2{
+  padding-bottom: 2rem;
+  color: var(--blueJay);
+}
+
+.item2 p{
+  padding-right: 7rem;
+  color: var(--blackRussian);
+}
+
+.item3 p{
+  color: var(--manatee);
+  font-size: 16.29px;
+  padding-bottom: 2rem;
+  padding-left: 5rem;
+}
+
+#title-comments{
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+.container-comment{
+  display: flex;
+  justify-content: center;
+}
+
+.img{
+  display: flex;
+  justify-content: center;
+}
+
+.profile{
+  width: 7rem;
+  height: 7rem;
+  padding-bottom: 1rem;
+}
+
+.item-comment{
+  display: flex;
+  flex-direction: column;
+  height: 15.5rem;
+  width: 25rem;
+  margin: 1rem;
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 8%, rgba(249,249,249,1) 28%, rgba(248,248,248,1) 63%);
+}
+
+.item-comment h4{
+  text-align: center;
+  padding-bottom: 1.5rem;
+}
+
+.item-comment p{
+  color: var(--manatee);
+  text-align: center;
+}
+
+.pre-footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 14rem;
+  background-color: var(--lightOrange);
+}
+
+.pre-footer button{
+  background-color: var(--snow);
+  color: var(--lightOrange);
+}
+
+.pre-footer button:hover{
+  color: var(--coral);
+  background-color: var(--snow);
+}
+
+.pre-footer div{
+  padding-right: 6rem;
+}
+
+.pre-footer h2{
+  color: var(--snow);
+  font-size: 38px;
+  height: 6rem;
+  width: 36rem;
+  padding-left: 5.5rem;
+}
+
+#button-pos-comment{
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 10rem;
+}
+
+
+/* -----------------FOOTER------------------ */
+
+.footer{
+  display: flex;
+  height: 15.43rem;
+  background-color: var(--blackRussian);
+  justify-content: space-around;
+}
+
+#social-item{
+  display: flex;
+}
+
+#social-item i{
+  color: var(--snow);
+  padding: 0.3rem;
+}
+
+.footer-column{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-column ul a li{
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+  list-style-type: none;
+  margin-bottom: 1.3rem;
+}
+
+.footer-column ul a li:hover{
+  color:var(--lightOrange);
+}
+
+.update-form{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  align-content: space-around;
+}
+
+.update-form form{
+  padding-bottom: 5rem;
+}
+
+.update-form p{
+  color: var(--manatee);
+  font-size: 14px;
+}
+
+.footer-column, #social-item{
+  padding-top: 3rem;
+}
+
+#social-item a i:hover{
+  color: var(--lightOrange);
+}
+
+.footer-column img, #social-item{
+  padding-bottom: 2rem;
+}
+
+input[type="mail"]{
+  border-radius: 30px;
+  height: 2.8rem;
+  width: 17rem;
+  padding-left: 0.5rem;
+  font-size: 12px;
+  border-color: var(--lightOrange);
+}
+
+.final-button{
+  background-color: var(--lightOrange);
+  border-radius: 30px;
+  color: var(--snow);
+  cursor: pointer;
+  border: none;
+  width: 5rem;
+  height: 2.8rem;
+}
+
+.final-button:hover{
+  background-color: var(--coral);
+}
+
+input::placeholder{
+  color: var(--lightOrange);
+  border: var(--lightOrange);
+}
+
+
+/* --------------------MEDIA QUERIES-------------------- */
+
+@media (max-width: 1010px){
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+  }
+
+  .container-header button{
+    display: none;
+  }
+
+  .container-header{
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+}
+
