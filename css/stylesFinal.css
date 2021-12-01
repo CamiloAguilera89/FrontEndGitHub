@@ -19,6 +19,10 @@
   --blueJay: #232C51;
 }
 
+body{
+  background-image: url(../img/bg-tablet-pattern.svg);
+  background-repeat: space;
+}
 
 /* -----------------HEADER------------------ */
 .container-header{
@@ -221,6 +225,8 @@ h2{
   justify-content: space-between;
   height: 14rem;
   background-color: var(--lightOrange);
+  background-image: url(../img/bg-simplify-section-mobile.svg);
+  background-repeat:repeat-y;
 }
 
 .pre-footer button{
@@ -502,6 +508,11 @@ input::placeholder{
     justify-content: center;
     padding-left: 12rem;
     padding-top: 3rem;
+  }
+
+  .container-comment i:hover{
+    cursor: pointer;
+    color: #F68F75;
   }
 
   .container-comment p, h4, .img{
