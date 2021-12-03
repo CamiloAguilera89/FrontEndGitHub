@@ -1,0 +1,349 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400; 
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+a{
+  text-decoration: none;
+  color: var(--whiteSmoke);
+}
+
+:root {
+  --nero: #222222;
+  --whiteSmoke: #F3F3F3;
+  --fireEngineRed: #D01418;
+  --christi: #619D00;
+  --silver: #C4C4C4;
+  --arsenic: #38454F;
+  --twitterColor: #14AED0;
+  --instagramColor: #CE0CFF;
+  --facebookColor: #1476D0;
+}
+
+/* ------------HEADER------------ */
+.header{
+  display: flex;
+  align-items: center;
+  background-color: var(--nero);
+  height: 5.5rem;
+  justify-content: space-between;
+}
+
+#letter1{
+  color: var(--whiteSmoke);
+  font-weight: 700;
+  font-size: 30px;
+}
+
+#letter2{
+  color: var(--fireEngineRed);
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.item-header-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hamburg{
+  padding-right: 1rem;
+  cursor: pointer;
+  color: var(--whiteSmoke);
+}
+
+#img-joystick{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+#vector-car{
+  display: none;
+}
+
+#nav-center{
+  display: none;
+}
+
+
+
+/* ------------MAIN------------ */
+.banner{
+  background-image: url(../img/fondoHeaderGameShop.png);
+  background-size: cover;
+  display: flex;
+  height: 32rem;
+  width:100%;
+}
+
+.discount-banner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#banner-txt1{
+  color: var(--fireEngineRed);
+  font-size: 40px;
+}
+
+#banner-txt2{
+  color: var(--whiteSmoke);
+  font-size: 40px;
+}
+
+#banner-txt-column{
+  display: flex;
+  flex-direction: column;
+}
+
+#banner-txt3{
+  color: var(--whiteSmoke);
+  font-size: 40px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+
+#banner-button{
+  background-color: var(--fireEngineRed);
+  border-radius: 10px;
+  color: var(--whiteSmoke);
+  height: 3.9rem;
+  width: 13.5rem;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.container-salients{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: var(--silver);
+}
+
+#txt-h2-1{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 30px;
+}
+
+#txt-h2-2{
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+  font-size: 30px;
+}
+
+.item1{
+  width: 15rem;
+  height: 20rem;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.space-img{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 1rem;
+}
+
+.space-text{
+  height: 28%;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 1rem;
+}
+
+.price-color{
+  font-size: 10px;
+  color: var(--christi);
+}
+
+.discount-txt{
+  font-size: 13px;
+  color: #000;
+  line-height: 1;
+}
+
+.item-price{
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.container-star{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 4rem;
+}
+
+.img-banner{
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  margin: 1rem;
+  position: relative;
+}
+
+.img-banner img{
+  border-radius: 10px;
+}
+
+.txt-star{
+  color: var(--whiteSmoke);
+  font-size: 17px;
+  position: absolute;
+  padding-right: 2rem;
+}
+
+
+/* ------------FOOTER------------ */
+.pre-footer{
+  align-items: center;
+  background-color: var(--nero);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 12rem;
+}
+
+#pre-foot-txt1{
+  color: var(--whiteSmoke);
+  font-size: 25px;
+}
+
+#pre-foot-txt2{
+  color: var(--fireEngineRed);
+  font-size: 25px;
+}
+
+#logo-pre-foot{
+  padding-bottom: 1rem;
+}
+
+#logo-pre-foot img{
+  padding-right: 0.5rem;
+}
+
+#text-pre-foot{
+  color: var(--whiteSmoke);
+  font-size: 25px;
+  padding-bottom: 1rem;
+}
+
+#twitter-color{
+  color: var(--twitterColor);
+  padding: 1rem;
+}
+
+#face-color{
+  color: var(--facebookColor);
+  padding: 1rem;
+}
+
+#insta-color{
+  color: var(--instagramColor);
+  padding: 1rem;
+}
+
+#final-footer{
+  background-color: var(--silver);
+  height: 2rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* ------------MEDIA QUERIES------------ */
+@media screen and (min-width: 768px){
+  #img-joystick{
+    padding-left: 3rem;
+  }
+
+  .nav-center{
+    display: flex;
+    flex-direction: row;
+  }
+
+  #nav-cart{
+    display: flex;
+  }
+
+  #hamburg{
+    display: none;
+  }
+
+  #nav-center, li a{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0.5rem;
+    font-size: 16px;
+  }
+   
+  #vector-car{
+    display: flex; 
+    align-items: center;
+    padding-right: 3rem;
+    color: var(--fireEngineRed);
+  } 
+
+  .banner{
+    justify-content: center;
+  }
+
+  .container-salients {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
+
+@media screen and (min-width: 992px) {
+  #txt-h2-1{
+    align-items: center;
+    padding-top: 3rem;
+  }
+
+  .container-salients .item1{
+    display: flex;
+  }
+
+  .row-item{
+    display: flex;
+  }
+
+  .container-star{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .pre-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .social-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
