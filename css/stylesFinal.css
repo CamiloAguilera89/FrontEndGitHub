@@ -67,6 +67,7 @@ body{
 
 .button-started:hover{
   background-color: var(--coral);
+  transition: background-color 0.8s;
 }
 
 button{
