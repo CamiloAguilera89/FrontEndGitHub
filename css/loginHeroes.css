@@ -91,6 +91,7 @@ button[type="submit"]{
   width: 20rem;
   margin-left: 4.2rem;
   color: #fff;
+  cursor: pointer;
 }
 
 input[type="text"]{
@@ -102,7 +103,9 @@ input[type="text"]{
 }
 
 input:focus{
-  background-color: #1CD1B0;
+  outline: none !important;
+  border-color: #1CD1B0;
+  box-shadow: 0 0 10px #1CD1B0;
 }
 
 input[type="password"]{

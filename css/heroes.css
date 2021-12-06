@@ -63,6 +63,10 @@ h1{
   list-style: none;
 }
 
+.nav-end li a:hover{
+  color: #1CD1B0;
+}
+
 /* ------------- MAIN ---------- */
 
 .contenedor{
@@ -134,6 +138,7 @@ section div p{
   bottom: 10px;
   right: 88px;
   font-size: 15px;
+  cursor: pointer;
 }
 
 #plus-circle{

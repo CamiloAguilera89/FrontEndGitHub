@@ -69,20 +69,24 @@ div p:hover{
   flex-wrap: wrap;
   padding-top: 6%;
   justify-content: space-evenly;
+  overflow: hidden;
 }
 
 a img{
   border-radius: 40px;
 }
 
+img:hover {filter: opacity(.6);}
+
+.itemLink:hover{transform: scale(1.1);}
+
 .itemLink{
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  /* background-color: #000; */
   box-sizing: border-box;
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
   margin: 20px;
 }
 
@@ -125,4 +129,3 @@ footer{
   color: #000;
 }
 
-.itemLink:hover{transform: scale(1.1);}

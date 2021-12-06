@@ -108,6 +108,16 @@ button[type="reset"]{
   color: #fff;
 }
 
+button:hover{
+  cursor: pointer;
+}
+
+input:focus{
+  outline: none !important;
+  border-color: #1CD1B0;
+  box-shadow: 0 0 10px #1CD1B0;
+}
+
 select{
   height: 2rem;
   border-radius: 10px;
@@ -115,6 +125,12 @@ select{
   font-size: 15px;
   border-width: 0.1rem;
   height: 2.5rem;
+}
+
+select:focus{
+  outline: none !important;
+  border-color: #1CD1B0;
+  box-shadow: 0 0 10px #1CD1B0;
 }
 
 input[type="text"]{

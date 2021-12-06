@@ -116,6 +116,16 @@ input[type="email"]{
   margin: 0.5rem;
 }
 
+button:hover{
+  cursor: pointer;
+}
+
+input:focus{
+  outline: none !important;
+  border-color: #1CD1B0;
+  box-shadow: 0 0 10px #1CD1B0;
+}
+
 h2{
   font-size: 50px;
   display: flex;
@@ -140,6 +150,12 @@ textarea{
   border-radius: 10px;
   border-width: 0.1rem;
   margin-top: 0.7rem;
+}
+
+textarea:focus{
+  outline: none !important;
+  border-color: #1CD1B0;
+  box-shadow: 0 0 10px #1CD1B0;
 }
 
 .botones{

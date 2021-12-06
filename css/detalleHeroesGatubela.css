@@ -55,7 +55,8 @@ h1{
 }
 
 section img{
-  height: 40rem;
+  /* height: 20rem; */
+  /* width: 10rem; */
   border-radius: 15px;
 }
 
